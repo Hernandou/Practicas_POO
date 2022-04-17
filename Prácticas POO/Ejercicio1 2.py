@@ -11,10 +11,6 @@ class Email:
         self.__tipoDominio = tipoDominio
         self.__passw = passw
 
-#metodo down
-    def getidc(self):
-        return (self.__idC)
-
     def retEmail(self):
 
         __email = self.getidc() + '@' + self.__dominio + '.' + self.__tipoDominio
